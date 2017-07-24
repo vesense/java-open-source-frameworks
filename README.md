@@ -1,20 +1,92 @@
-# my-java-frameworks
-The most frequently used java frameworks
+# Java Open Source Frameworks
+The most frequently used java open source frameworks
 
-format:
 
--------------------------------------------------------------------------------------
-__categoy__
+### Common
+guava
+commons-lang
+commons-io
+commons-collections
+commons-codec
+commons-compress
+commons-cli
 
-| sub-category | name | official site | github link | maven&latest version | recommend version | socre |
-| --- | --- | --- | --- | --- | --- | --- |
-| sub-category | name | official site | github | maven | version | socre |
-| sub-category | name | official site | github | maven | version | socre |
--------------------------------------------------------------------------------------
+### Document
+**Word/Excel/PPT**: Apache POI
+**PDF**: Apache PDFBox
 
-__commons__
+### Text Data Format
+**JSON**: jackson, fastjson
+**CSV**: commons-csv, OpenCSV
+**XML**: dom4j, jdom
+**YAML**: snakeyaml
 
-| sub-category | name | official site | github link | maven&latest version | recommend version | socre |
-| --- | --- | --- | --- | --- | --- | --- |
-| commons | guava | N/A | [github](https://github.com/google/guava) | [![Maven Version](https://maven-badges.herokuapp.com/maven-central/org.apache.storm/storm-core/badge.svg)](http://search.maven.org/#search\|gav\|1\|g:"org.apache.storm"%20AND%20a:"storm-core") | 18.0 | ☆☆☆★★ |
-| commons | commons-lang | [official](http://commons.apache.org/proper/commons-lang/) | [github]() | maven | version | socre |
+### Clients
+**HTTP**: Apache HttpClient
+**FTP**: commons-net
+**Email**: commons-email
+**Reids**: jedis
+**Memcached**: xmemcached
+
+### Logging
+**API**: slf4j, commons-logging
+**Implementation**: Apache log4j, logback
+
+### Configuration
+commons-configuration
+
+### Database Connection Pool
+HikariCP, commons-dbcp
+
+### Serializer/Deserializer
+Kryo
+Protobuf
+Thrift
+Avro
+protostuff
+
+### TCP Service
+Netty
+
+### HTTP Service
+Dropwizard
+Jetty
+jersey
+Apache CXF
+
+### NLP
+**Chinese Word Segmentation**: HanLP
+Apache OpenNLP
+
+## Html Information Extractor
+Jsoup
+
+### Deep Learning
+deeplearning4j
+
+### IOC
+Spring
+
+### Metric
+Metrics
+
+### Test
+Unit Test: Junit
+Mock: mockito, jmockit
+
+### Others
+Derby
+Akka
+Parquet
+ORC
+Kudu
+Htmlunit
+selenium
+RoaringBitmap
+stream-lib
+mysql-connector
+sqlite-jdbc
+JavaCV
+Quartz
+disruptor
+memcached-session-manager
