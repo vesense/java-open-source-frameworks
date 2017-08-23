@@ -93,5 +93,7 @@ The most frequently used java open source frameworks
 * JavaCV
 * Quartz
 * disruptor
+* cglib
+* activiti
 
 
