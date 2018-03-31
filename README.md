@@ -36,7 +36,7 @@ The most frequently used java open source frameworks
 * commons-configuration
 
 ### Database Connection Pool
-* HikariCP, commons-dbcp
+* druid, HikariCP, commons-dbcp
 
 ### Serializer/Deserializer
 * Kryo
@@ -49,10 +49,15 @@ The most frequently used java open source frameworks
 * Netty
 
 ### HTTP Service
+* Spring Boot
 * Dropwizard
 * Jetty
 * jersey
 * Apache CXF
+
+### RPC Service
+* gRPC
+* Dubbo
 
 ### NLP
 * **Chinese Word Segmentation**: HanLP
@@ -68,7 +73,7 @@ The most frequently used java open source frameworks
 * Spring
 
 ### Metric
-* Metrics
+* Dropwizard Metrics
 
 ### Test
 * Unit Test: Junit
@@ -95,5 +100,6 @@ The most frequently used java open source frameworks
 * disruptor
 * cglib
 * activiti
-* joda-time
+* MyBatis
+* joda-time -> java8 java.time
 
