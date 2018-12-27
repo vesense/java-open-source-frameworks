@@ -83,9 +83,14 @@ The most frequently used java open source frameworks
 * memcached-session-manager
 * redisson-tomcat
 
+### Reactive
+* https://github.com/ReactiveX/RxJava
+* https://github.com/reactor/reactor-core
+* https://github.com/eclipse-vertx/vert.x
+* https://github.com/akka/akka
+
 ### Others
 * Derby
-* Akka
 * Parquet
 * ORC
 * Kudu
